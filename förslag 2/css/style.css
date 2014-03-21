@@ -46,6 +46,8 @@ body{
         }
             aside ul{
                 list-style-type: none;
+                margin: 0;
+                -webkit-padding-start: 0;
                
             }
                 aside ul li{
