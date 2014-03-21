@@ -68,11 +68,16 @@ body{
             }
                article a .box{
                    display: inline-block;
+                   margin-top: 5%;
                }
                 article a .box:nth-child(4n+1){
                     clear: both;
-                    width: 20%;
+                    width: 18%;
                 
+                }
+                article a .leftbox{
+                    margin-left: 6%;
+                    
                 }
                 article a .box img{
                     width: 60px;
