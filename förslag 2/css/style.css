@@ -36,33 +36,31 @@ body{
 
                         header nav ul li a:hover{
                             text-decoration: underline;
-                            
-                            
                         }
-        aside{
-            background:rgba(134,0,0, 0.1);
-            
-            float: right;
-        }
-            aside ul{
-                list-style-type: none;
-                margin: 0;
-                -webkit-padding-start: 0;
-               
-            }
-                aside ul li{
-                    padding: 5%;
-                    
-                }
-                    aside ul li a{
-                        text-decoration: none;
-                    }
-                    aside ul li a:hover{
-                    }
+
         article{
             width: 100%;
             margin: auto;
         }
+            article .infobox{
+                background: #860000;
+                border-radius: 10px;
+                display: inline-block;
+                margin-top: 1%;
+                width: 45%;
+                
+            }
+                article .infobox h3{
+                    color: #fff;
+                    padding-left: 5px;
+                }
+                    article .infobox p{
+                        color: #fff;
+                        padding-left: 5px;
+                    }
+                    article .infobox img{
+                        width: 175px;
+                    }
             article a{
                 padding-left: 4.7%;
             }
@@ -76,16 +74,23 @@ body{
                 
                 }
                 article a .leftbox{
-                    margin-left: 6%;
+                    margin-left: 2%;
                     
                 }
                 article a .box img{
                     width: 60px;
                     height: auto;
+                    margin-left: 32%;
                 }
                     article a .box p{
                         font-size: 1em;
+                        text-align: center;
                     }
         footer{
-            width: 100%;
+            background: #860000;
+            color: #fff;
+            width: 100%;   
         }
+            footer p{
+                padding: 2%;
+            }
