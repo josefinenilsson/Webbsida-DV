@@ -1,0 +1,127 @@
+/* Huvudsaker */
+body{
+    font-family: "helvetica";
+    margin: 0;
+
+}
+    #wrapper{
+        margin: auto;
+        max-width: 1000px;
+        
+    }
+/* Slut på huvudsaker */
+
+/* Header */
+        header{
+            background:#860000;
+        }
+            h1{
+            text-align:center;
+            }
+            header nav{
+            }
+                header nav ul{
+                    -webkit-margin-before: 1em;
+                    -webkit-margin-after: 1em;
+                    -webkit-margin-start: 0px;
+                    -webkit-margin-end: 0px;
+                    -webkit-padding-start: 0px;
+                    text-align: center;
+                    margin: 0;
+                }
+                    header nav ul li{
+                        display: inline-block;
+                        padding: 1%;
+                    }
+                        header nav ul li a{
+                            text-decoration: none;
+                            color:#fff;
+                            font-size: 1.7em;
+                        }
+
+                        header nav ul li a:hover{
+                            text-decoration: underline;
+                        }
+        article{
+            width: 100%;
+            margin: auto;
+        }
+
+/* Slut på header */
+
+/* Startsidan */
+
+    article .infobox{
+        background: #860000;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 1%;
+        width: 45%;            
+    }
+        article .infobox h3{
+                color: #fff;
+                padding-left: 5px;
+            }
+                article .infobox p{
+                    color: #fff;
+                    padding-left: 5px;
+                }
+                article .infobox img{
+                    width: 175px;
+                }
+        article a{
+            padding-left: 4.7%;
+        }
+           article a .box{
+               display: inline-block;
+               margin-top: 5%;
+           }
+            article a .box:nth-child(4n+1){
+                clear: both;
+                width: 18%;
+                
+            }
+            article a .leftbox{
+                margin-left: 2%;        
+            }
+                article a .box img{
+                    width: 60px;
+                    height: auto;
+                    margin-left: 32%;
+                }
+                article a .box p{
+                    font-size: 1em;
+                        text-align: center;
+                }
+/* Slut på startsidan */
+/* Om oss */
+article .about{
+    display: inline-block;
+    width: 45%;
+}
+    article .about h2{
+    }
+        article .about h3{
+        }
+            article .about ul{
+            }
+                article .about ul li{
+                }
+        article .about tr{
+        }
+            article .about tr td{
+            }
+
+
+/* Slut på om oss */
+
+/* Footer */
+footer{
+    background: #860000;
+    color: #fff;
+    width: 100%;   
+}
+    footer p{
+        padding: 2%;
+    }
+/* Slut på footer */
