@@ -13,10 +13,9 @@ body{
 
 /* Header */
         header{
-            background:#860000;
+            background:#002470;
         }
             h1{
-            text-align:center;
             }
             header nav{
             }
@@ -52,7 +51,7 @@ body{
 /* Startsidan */
 
     article .infobox{
-        background: #860000;
+        background: #002470;
         border-radius: 10px;
         display: inline-block;
         margin-top: 1%;
@@ -122,7 +121,7 @@ article .about{
 
 /* Footer */
 footer{
-    background: #860000;
+    background: #002470;
     color: #fff;
     width: 100%;
     float: left;
