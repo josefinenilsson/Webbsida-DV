@@ -61,36 +61,26 @@ body{
                     }
         article{
             width: 100%;
+            margin: auto;
         }
-            article .box1{
-                width: 40%;
-                float: left;
-                
+            article a{
+                padding-left: 4.7%;
             }
-                h3{
+               article a .box{
+                   display: inline-block;
+               }
+                article a .box:nth-child(4n+1){
+                    clear: both;
+                    width: 20%;
+                
                 }
-            article .box2{
-                width: 40%;
-                float: right;
-                
-            }
-                h3{
+                article a .box img{
+                    width: 60px;
+                    height: auto;
                 }
-
-            article .box3{
-                width: 40%;
-                float:left;
-            }
-                h3{
-                
-            }
-            article .box4{
-                width: 40%;
-                float: right;
-                
-            }
-                h3{
-                }
+                    article a .box p{
+                        font-size: 1em;
+                    }
         footer{
             width: 100%;
         }
